@@ -111,10 +111,10 @@ $$
 > $$
 > E_{rest}=\left\{
 > \begin{aligned}
->     & \sum_{i<j}|d_{i,j}-d_{i,j}^p|, & short-range C\alpha distance with |i-j\le6 \\
->     & \sum_{i>j}-1/|d_{i,j}-d_{i,j}^p|, & long-range C\alpha distance with |i-j>6 \\
->     & \sum_{i>j}-w(conf_{i,j})\theta(6.5-d_{i,j}), & C\alpha contact restriants \\
->     & \sum_{i>j}w(conf_{i,j})\theta(g_{i,j}-g_0^{A_i,A_j}), & C\alpha contact restriants \\
+>  & \sum_{i<j}|d_{i,j}-d_{i,j}^p|, & short-range \ C\alpha \ distance \ with |i-j|\le6 \\
+>  & \sum_{i>j}-1/|d_{i,j}-d_{i,j}^p|, & long-range \ C\alpha \ distance\ with |i-j|>6 \\
+>  & \sum_{i>j}-w(conf_{i,j})\theta(6.5-d_{i,j}), & C\alpha \ contact \ restriants \\
+>  & \sum_{i>j}w(conf_{i,j})\theta(g_{i,j}-g_0^{A_i,A_j}), & C\alpha \ contact \  restriants \\
 > \end{aligned}
 > \right.
 > $$
